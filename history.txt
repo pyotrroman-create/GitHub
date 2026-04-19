@@ -1,0 +1,75 @@
+    1  pwd
+    2  git clone git@github.com:pyotrroman-create/121225-wde.git
+    3  ls -al
+    4  git config --global user.name
+    5  git config --global PetroRomanenko
+    6  git config --global user.name Petro
+    7  git config --global user.email Petro.Romanenko@magenta.de
+    8  git config --global  -l
+    9  git init
+   10  git add WBT logo
+   11  git add "WBT logo.png"
+   12  git status
+   13  dit commit -m "Added photo"
+   14  git commit -m "Added photo"
+   15  git branch -M main
+   16  git remote add origin git@github.com:pyotrroman-create/git_intro.git
+   17  git push -u origin main
+   18  yes
+   19  git push -u origin main
+   20  yes
+   21  yes
+   22  git push -u origin main
+   23  git init
+   24  git checkout -b gitignore
+   25  touch.gitignore
+   26  touch .gitignore
+   27  git add .gitignore
+   28  git commit -m "Add .gitignore"
+   29  git push -u origin gitignore
+   30  git remote add origin https://github.com/pyotrroman-create/git-branch.git
+   31  git remote -v
+   32  git push -u origin gitignore
+   33  git remote -v
+   34  git push -u origin gitignore
+   35  git init
+   36  git remote add origin https://github.com/pyotrroman-create/GitHub.git
+   37  git status
+   38  git add GitHub
+   39  touch .gitignore
+   40  git add .gitignore
+   41  git commit -m "Add .gitignore"
+   42  git push -u origin main
+   43  cd GitHub2
+   44  cd ~/Desktop
+   45  mkdir GitHub2
+   46  cd GitHub2
+   47  git clone https://github.com/pyotrroman-create/GitHub.git
+   48  cd GitHub
+   49  cd GitHub ls
+   50  cd GitHub && ls
+   51  pwd
+   52  ls
+   53  git status
+   54  ls -a
+   55  git branch feature
+   56  git checkout feature
+   57  git branch
+   58  pwd
+   59  echo "#Здравствуйте" > README.md
+   60  echo "*.log" >>.gitignore
+   61  git branch
+   62  git checkout feature
+   63  git add README.md .gitignore
+   64  git commit -m "Add README and update .gitignore"
+   65  git push
+   66  git push --set-upstream origin feature
+   67  git push
+   68  git branch
+   69  git log -1
+   70  git commit --amend -m "Add README and update .gitignore amend"
+   71  git push --force
+   72  git checkout main
+   73  git merge feature
+   74  git push origin main
+   75  history > history.txt
